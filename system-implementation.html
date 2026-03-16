@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>System Implementation | Mehdi Jazi</title>
+    <meta name="description" content="System Implementation for Contractor Connect" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<header class="header">
+    <div class="navbar">
+        <a class="brand" href="index.html" aria-label="Go to Home">
+            <div class="logo" aria-hidden="true"></div>
+            <div class="brand-title">
+                <strong>Mehdi Jazi</strong>
+                <span>Computer Programming &amp; Analysis</span>
+            </div>
+        </a>
+
+        <button class="hamburger" type="button" data-hamburger aria-label="Open menu">Menu</button>
+
+        <div class="nav-right">
+            <nav class="nav-links" data-nav>
+                <a href="index.html">Home</a>
+                <a href="bio.html">Bio</a>
+                <a href="resume.html">Resume</a>
+                <a href="cover-letter.html">Cover Letter</a>
+                <a href="philosophy.html">Philosophy</a>
+                <a href="credentials.html">Academic Credentials</a>
+                <a href="work-experience.html">Academic Work Experience</a>
+                <a href="capstone.html" class="active">Capstone Project</a>
+                <a href="personal-data.html">Personal Data</a>
+            </nav>
+
+            <div class="header-avatar" title="Profile photo">
+                <img src="assets/img/2.jpg" alt="Profile photo" />
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <section class="section">
+        <div class="card card-pad">
+            <h1>System Implementation</h1>
+            <hr class="sep" />
+
+            <p>
+                The system implementation phase focused on turning the Contractor Connect
+                design into a working web application. The project was developed as a
+                full-stack website that supports user registration, login, project
+                management, and database-driven interaction between homeowners and contractors.
+            </p>
+
+            <p>
+                The application was built using PHP with the CodeIgniter 4 framework,
+                MySQL/MariaDB for database management, HTML, CSS, and JavaScript for the
+                user interface, and cPanel hosting for deployment. The project was also
+                managed through GitHub for version control and collaboration.
+            </p>
+
+            <p>
+                As part of the implementation work, I contributed to backend and database-related
+                tasks, including database structure, integration support, and development of
+                core system functionality. This stage of the project moved the platform from
+                planning and mockups into a working live environment.
+            </p>
+
+            <h3 style="margin:18px 0 10px;">Technologies Used</h3>
+            <ul class="list">
+                <li>PHP</li>
+                <li>CodeIgniter 4</li>
+                <li>MySQL / MariaDB</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Apache / Linux hosting</li>
+                <li>cPanel</li>
+                <li>GitHub</li>
+            </ul>
+
+            <h3 style="margin:18px 0 10px;">Implemented Features</h3>
+            <ul class="list">
+                <li>User registration and login</li>
+                <li>Role-based account creation for homeowners and contractors</li>
+                <li>Homeowner dashboard navigation</li>
+                <li>Project listing and project management views</li>
+                <li>Database tables to support users, projects, bids, profiles, and roles</li>
+                <li>Live deployment through cPanel hosting</li>
+            </ul>
+
+            <div class="btn-row">
+                <a class="btn" href="https://github.com/AdelAlhajHussein/contractor_connect" target="_blank" rel="noreferrer">GitHub Repository</a>
+                <a class="btn" href="https://contractorconnect.cc" target="_blank" rel="noreferrer">Live Website</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="grid">
+            <div class="col-6">
+                <div class="card project">
+                    <h3>Database Implementation</h3>
+                    <p class="small">
+                        This screenshot shows the project database in phpMyAdmin, including tables
+                        for users, bids, projects, roles, profiles, ratings, certifications,
+                        payment methods, and related project data.
+                    </p>
+                    <img class="mockup-img" src="assets/img/impl-database.png" alt="Database Implementation Screenshot" />
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="card project">
+                    <h3>Login Page</h3>
+                    <p class="small">
+                        This screen shows the implemented login page for Contractor Connect,
+                        allowing registered users to sign in and access the system.
+                    </p>
+                    <img class="mockup-img" src="assets/img/impl-login.png" alt="Login Page Screenshot" />
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="card project">
+                    <h3>Register Page</h3>
+                    <p class="small">
+                        This page shows the account creation feature, including role selection
+                        for different types of users in the system.
+                    </p>
+                    <img class="mockup-img" src="assets/img/impl-register.png" alt="Register Page Screenshot" />
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="card project">
+                    <h3>Homeowner Dashboard</h3>
+                    <p class="small">
+                        This implemented dashboard provides navigation for core homeowner
+                        features such as projects, bids, browsing, and profile access.
+                    </p>
+                    <img class="mockup-img" src="assets/img/impl-dashboard.png" alt="Homeowner Dashboard Screenshot" />
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="card project">
+                    <h3>Projects Page</h3>
+                    <p class="small">
+                        This page shows the project listing view where homeowners can manage
+                        existing projects, review status, and access project details and bids.
+                    </p>
+                    <img class="mockup-img" src="assets/img/impl-projects.png" alt="Projects Page Screenshot" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="card card-pad">
+            <div class="btn-row">
+                <a class="btn" href="capstone.html">Back to Capstone Project</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">© 2026 Mehdi Jazi</div>
+</main>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

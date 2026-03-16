@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Requirements Analysis and Design | Mehdi Jazi</title>
+    <meta name="description" content="Requirements Analysis and Design for Contractor Connect" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<header class="header">
+    <div class="navbar">
+        <a class="brand" href="index.html" aria-label="Go to Home">
+            <div class="logo" aria-hidden="true"></div>
+            <div class="brand-title">
+                <strong>Mehdi Jazi</strong>
+                <span>Computer Programming &amp; Analysis</span>
+            </div>
+        </a>
+
+        <button class="hamburger" type="button" data-hamburger aria-label="Open menu">Menu</button>
+
+        <div class="nav-right">
+            <nav class="nav-links" data-nav>
+                <a href="index.html">Home</a>
+                <a href="bio.html">Bio</a>
+                <a href="resume.html">Resume</a>
+                <a href="cover-letter.html">Cover Letter</a>
+                <a href="philosophy.html">Philosophy</a>
+                <a href="credentials.html">Academic Credentials</a>
+                <a href="work-experience.html">Academic Work Experience</a>
+                <a href="capstone.html" class="active">Capstone Project</a>
+                <a href="personal-data.html">Personal Data</a>
+            </nav>
+
+            <div class="header-avatar" title="Profile photo">
+                <img src="assets/img/2.jpg" alt="Profile photo" />
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <section class="section">
+        <div class="card card-pad">
+            <h1>Requirements Analysis and Design</h1>
+            <hr class="sep" />
+
+            <p>
+                The Requirements Analysis and Design document explains the software needs
+                of Contractor Connect and provides a clear structure for system development.
+                The project is designed as a web application that connects homeowners with
+                local contractors and supports the full process from project posting to
+                bidding, selection, payment, and review.
+            </p>
+
+            <h3 style="margin:18px 0 10px;">Purpose and Scope</h3>
+            <p>
+                The main purpose of this document is to describe the high-level software
+                requirements of the system and provide a shared understanding for clients,
+                stakeholders, developers, and instructors. The project scope includes user
+                registration and login, project posting, project browsing and search,
+                bid management, client reviews, payment handling, administrative tools,
+                and the ability to upload and view project documents such as estimates.
+            </p>
+
+            <h3 style="margin:18px 0 10px;">System Overview</h3>
+            <p>
+                Contractor Connect is planned as a self-contained web application that
+                improves the traditional process of finding contractors. Instead of relying
+                on word of mouth, social posts, phone calls, or email, the platform brings
+                everything into one place. It focuses on small and medium home projects and
+                provides essential features such as user accounts, project posting,
+                searching, bidding, bid review and selection, dashboards, reviews, and
+                payment support.
+            </p>
+
+            <h3 style="margin:18px 0 10px;">Functional Requirements</h3>
+            <ul class="list">
+                <li>Account creation and login for clients and contractors.</li>
+                <li>Task creation with title, description, category, budget, location, and deadlines.</li>
+                <li>Contractor bidding with cost, time estimates, and qualifications.</li>
+                <li>Client review and selection of bids for project assignment.</li>
+                <li>User dashboards for managing tasks, bids, updates, and notifications.</li>
+            </ul>
+
+            <h3 style="margin:18px 0 10px;">Design Perspective</h3>
+            <p>
+                The design of the system focuses on usability, clear navigation, and a
+                structured workflow for both homeowners and contractors. Homeowners should
+                be able to post projects and compare bids easily, while contractors should
+                be able to search for projects and submit proposals efficiently. The design
+                also includes an administrator role for moderation, reporting, and system
+                management.
+            </p>
+
+            <h3 style="margin:18px 0 10px;">Non-Functional Requirements</h3>
+            <p>
+                The system must be secure, reliable, and easy to use. Non-functional
+                requirements include hashed passwords, role-based access control, HTTPS,
+                server-side validation, protection against injection and XSS issues, and
+                file validation for uploads. The document also sets performance targets
+                such as fast page loading, reliable login, and accurate dashboard data.
+                In addition, the project must work within free hosting limits, use sandbox
+                payments only, and provide local run instructions for demonstrations.
+            </p>
+
+            <h3 style="margin:18px 0 10px;">Logical Database Requirements</h3>
+            <p>
+                The system requires a relational database to store user details, project
+                information, bids, payments, and reviews. Data should be stored in
+                structured tables using standard SQL data types and UTF-8 encoding. The
+                database design must support scalable storage, backups, data retention,
+                primary and foreign key relationships, validation rules, and secure access
+                through authentication and authorization controls.
+            </p>
+
+            <div class="btn-row">
+                <a class="btn" href="capstone.html">Back to Capstone Project</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">© 2026 Mehdi Jazi</div>
+</main>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
